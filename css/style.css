@@ -1,5 +1,4 @@
-.top-nav
-{
+.top-nav {
     background-color: white;
     overflow: hidden;
     margin: 0px;
@@ -11,13 +10,12 @@
     height: 50px;
     z-index: 10;
 }
-body
-{
+
+body {
     margin: 0px;
 }
 
-.top-nav p
-{
+.top-nav p {
     float: left;
     color: #000000;
     padding: 15px 16px;
@@ -26,26 +24,24 @@ body
     text-align: center;
 }
 
-.top-nav ul
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 15px 16px;
-  overflow: hidden;
-  float: right; 
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 16px;
+    overflow: hidden;
+    float: right;
 }
 
-.top-nav ul li
-{
+.top-nav ul li {
     float: left;
     margin: 0px 5px;
 }
 
-.container{
+.container {
     margin-top: -10px;
 }
 
-.banner{
+.banner {
     background-image: url(../img/architect.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
@@ -54,8 +50,8 @@ body
 }
 
 
-.banner p{
-    color:rgb(255, 252, 252);
+.banner p {
+    color: rgb(255, 252, 252);
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 400;
@@ -71,8 +67,7 @@ body
     transform: translate(-50%, 50%);
 }
 
-.banner p b
-{
+.banner p b {
     background-color: rgba(0, 0, 0, 0.678);
     text-align: center;
     padding: 7px 17px;
@@ -80,257 +75,121 @@ body
     color: white;
 }
 
-.content
-{
-    max-width: 1564px; 
+.content {
+    max-width: 1564px;
     padding: 8px 16px;
     font-family: verdana, sans-serif;
     font-size: 15px;
-    line-height: 1.5; 
-    position: relative; 
+    line-height: 1.5;
+    position: relative;
 }
 
-.project
-{
+.project {
     padding-top: 32px;
     padding-bottom: 20px;
     margin: 10px 40px;
 }
 
-.h3-a
-{
+.h3-a {
     letter-spacing: 3px;
-    margin-left: 29.8px; ;
+    margin-left: 29.8px;
 }
-.line
-{
+
+.line {
     border: 0;
     border-top: 1px solid rgb(194, 175, 175);
     margin: 28.9px;
     opacity: 0.50;
-    }
-   
-.container.x{
+}
+
+.container.x {
     margin-top: 10px;
-    margin-left: 7px 0px;
-    padding: 0px 8px;
-    display: flex; /* puts image in a row */
-    justify-content: center; /* centers them in the container*/
-    gap: 15px;   /* space between pictures */
-}
-.container img
-{
-    width: 150px; /* control size */
-    height: auto; /* keep aspect ratio */
-    border-radius: 8px; /* optional styling */
-    display: inline;
-    width: 150px;
-    margin-right: 10px ;
+    margin-left: 40px;
+    height: auto;
+    /* keep aspect ratio */
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    width: 100px;
+    margin-right: 40px;
+    padding: 3px 0;
 }
-.row-padding
-{
-    padding: 0px 8px;
-}
-.banner-a
-{
-    background-image: url(../img/house5.jpg);
-     background-repeat: no-repeat;
-    object-fit:contain;
-    width: 350px;
-    height: 250px;
-    margin: 10px 40px;
-    
-}
-.h3-b
-{
-   font-family:  Verdana, sans-serif;
-    color: white;
-    background-color: black;
-    display: inline-block;
-    padding: 10px 14px !important;
-    position: absolute; 
-    display: block;
-    margin: 10px 40px;
-    margin-top: 0px;
-}
-.banner-b
-{
-     background-image:url(../img/house2.jpg);
-     background-repeat: no-repeat;
-     object-fit:contain;
-     width: 350px;
-     height: 250px;
-     margin: 10px 40px; 
-     margin-top: 0px;
-     
-     
-}
-.h3-C
-{
-    font-family:  Verdana, sans-serif;
-    color: white;
-    background-color: black;
-    display: inline-block;
-    padding: 10px 14px !important;
-    position: absolute; 
-    display: flex;
-    margin: 0PX;
-    margin-top: 0PX;
 
+.project-content {
+    position: relative;
+    margin-left: 10px;
 }
-.banner-c
-{
-    background-image:url(../img/house3.jpg);
-     background-repeat: no-repeat;
-     object-fit:contain;
-     width: 350px;
-     height: 250px;
-     margin: 10px 40px;  
-}
-.h3-d 
-{
-    font-family:  Verdana, sans-serif;
-    color: white;
-    background-color: black;
-    display: inline-block;
-    padding: 10px 14px !important;
-    position: absolute; 
-    display: block;
-    margin: 0PX;
-    margin-top: 0PX;
 
-}
-.banner-d
-{
-    background-image:url(../img/house4.jpg);
-     background-repeat: no-repeat;
-     object-fit:contain;
-     width: 350px;
-     height: 250px;
-     margin: 10px 40px;  
-}
-.h3-e 
-{
-    font-family:  Verdana, sans-serif;
+.project-badge {
+    font-family: Verdana, sans-serif;
     color: white;
     background-color: black;
-    display: inline-block;
-    padding: 10px 14px !important;
-    position: absolute; 
     display: block;
-    margin: 0PX;
-    margin-top: 0PX; 
-}
-.banner.e
-{
- background-image:url(../img/house2.jpg);
-     object-fit:contain;
-     width: 350px;
-     height: 250px;
-     margin: 10px 40px;  
-}
-.h3-f
-{
-    font-family:  Verdana, sans-serif;
-    color: white;
-    background-color: black;
-    display: inline-block;
     padding: 10px 14px !important;
-    position: absolute; 
-    display: block;
-    margin: 0PX;
-    margin-top: 0PX;     
-} 
-.banner-f
-{
- background-image:url(../img/house2.jpg);
-     object-fit:contain;
-     width: 350px;
-     height: 250px;
-     margin: 10px 40px;  
+    position: absolute;
+    top: -20px;
+    left: 0;
 }
-.h3-g
-{
-font-family:  Verdana, sans-serif;
-    color: white;
-    background-color: black;
-    display: inline-block;
-    padding: 10px 14px !important;
-    position: absolute; 
-    display: block;
-    margin: 0PX;
-    margin-top: 0PX;     
+
+.project-badge:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
-.content-x
-{
- max-width: 1564px; 
-  padding: 8px 16px;
-  font-family: verdana, sans-serif;
-  font-size: 15px;
-  line-height: 1.5; 
-  position: relative; 
-} 
-.About
-{
-padding-top: 32px;
-padding-bottom: 20px;
-margin: 10px 40px;
+
+.project-image{
+    width: 100%;
+    object-fit: contain;
+    display: block;   
 }
-.rel
-{
-letter-spacing: 0px;
-margin-left: -8px;
-font-size: x-large;
+
+.About {
+    padding-top: 32px;
+    padding-bottom: 20px;
+    margin: 10px 40px;
 }
-.line-x
-{
+
+.rel {
+    letter-spacing: 0px;
+    margin-left: -8px;
+    font-size: x-large;
+}
+
+.line-x {
     border: 0;
     border-top: 1px solid rgb(194, 175, 175);
     opacity: 0.50;
     margin-left: -8px;
-    
+
 }
-.container-fx
-{
- margin-top: 10px;
-    margin-left: 7px 0px;
-    padding: 0px 8px;
-    display: flex; /* puts image in a row */
-    justify-content: center; /* centers them in the container*/
-    gap: 15px;   /* space between pictures */
-width: 150px; /* control size */
-    height: auto; /* keep aspect ratio */
-    border-radius: 8px; /* optional styling */
-    display: inline;
-    width: 150px;
-    margin-right: 10px ;
+
+.container-fx {
+    margin-top: 10px;
+    margin-left: 16px;
+    height: auto;
+    /* keep aspect ratio */
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 40px;
+    padding: 3px 0;
+    overflow: hidden;
 }
-.banner-0
-{
-  background-image:url(../img/team2.jpg);
-     object-fit:fill;
-     width: 300px;
-     height: 210px;
-     margin: 10px 40px;    
-     vertical-align: middle; 
-     overflow-clip-margin: content-box;
-    overflow: clip;
+
+.team-container{
+    margin: 10px 8px;
 }
-.Ut
-{
-    margin-left: 20px;
-    padding: 20px;
+
+.team-banner {
+
+}
+
+.team-name {
     font-family: Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-decoration-thickness: 6px;
 }
-.ui
-{
+
+.team-role {
     opacity: 0.60;
     display: block;
     margin-block-start: 1em;
@@ -338,177 +197,224 @@ width: 150px; /* control size */
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    margin-left: 37px;
-    margin-top: 20px;
     width: 300px;
 }
-.get
-{
-      font-size: 30px 70px;
-  line-height: 1.5; 
-  background-color:rgb(223, 218, 218);
-  color:  black; 
-   margin-left: 37px;
-  border: 1px solid  rgb(194, 175, 175);
-  border-spacing: 20px;
-border: none;
+
+.team-button {
+    font-size: 30px 70px;
+    line-height: 1.5;
+    background-color: rgb(223, 218, 218);
+    color: black;
+    border: 1px solid rgb(194, 175, 175);
+    border-spacing: 20px;
+    border: none;
     display: inline-block;
     padding: 8px 125px;
-    vertical-align: middle;
+    vertical-align: auto;
+    width: 310px;
     overflow: hidden;
-    text-decoration: none;
+
 }
-.u
-{
-    margin-left: 37px;
-font-family: Verdana, sans-serif;
+
+.team-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.team-description {
+    font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
 
 
-.txt
-{
+.bee {
+    margin-left: -14px;
+    padding: 15px;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration-thickness: 6px;
+    margin-top: 30px;
+}
+
+.bee-1 {
+    opacity: 0.60;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-left: -5px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.bee-2 {
+    margin-left: -5px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.bee-3 {
+    font-size: 30px 70px;
+    line-height: 1.5;
+    background-color: rgb(223, 218, 218);
+    color: black;
+    margin-left: -5px;
+    border: 1px solid rgb(194, 175, 175);
+    border-spacing: 20px;
+    border: none;
+    display: inline-block;
+    padding: 8px 125px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.txt {
     margin-top: 10px;
     border-left: -8px;
 }
-.content-y
-{
-     max-width: 1564px; 
-  padding: 8px 16px;
-  font-family: verdana, sans-serif;
-  font-size: 15px;
-  line-height: 1.5; 
-  position: relative; 
+
+.content-y {
+    max-width: 1564px;
+    padding: 8px 16px;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
 
 }
-.content-3
-{
-   padding-top: 32px;
-padding-bottom: 20px;
-margin: 10px 40px;
-} 
-.boo
-{
-    font-family:  "Segoe UI", Arial, sans-serif;
-    font-size: x-large; 
+
+.content-3 {
+    padding-top: 32px;
+    padding-bottom: 20px;
+    margin: 10px 40px;
+}
+
+.boo {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: x-large;
     margin-left: -5px;
 }
-.line-y
-{
-      border: 0;
+
+.line-y {
+    border: 0;
     border-top: 1px solid rgb(194, 175, 175);
     opacity: 0.50;
     margin-left: -8px;
 }
-.container-4
-{
+
+.container-4 {
     margin-top: -10px;
 }
-.txt-
-{
-    margin-left:20px ;
+
+.txt- {
+    margin-left: 20px;
 }
-.txt-2
-{
-margin-left: 43px;
- margin-top: -23px;
+
+.txt-2 {
+    margin-left: 43px;
+    margin-top: -23px;
     border-left: -8px;
     font-family: verdana, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
+    font-size: 15px;
+    line-height: 1.5;
 }
-.name
-{
-  margin-left: 43px;
- margin-top: 10px;
-    border-left: -15px;
-    font-family: verdana, sans-serif;
-  font-size: 15px;
-  padding: 6px;
-  line-height: 1.5; 
-  background-color: white;
-  color:  rgb(194, 175, 175); 
-   margin-right: 52px;
-  border: 1px solid  rgb(194, 175, 175);
-  border-spacing: 20px;
-}
-.email
-{
 
-  margin-left: 43px;
- margin-top: 10px;
+.name {
+    margin-left: 43px;
+    margin-top: 10px;
     border-left: -15px;
     font-family: verdana, sans-serif;
-  font-size: 15px;
-  padding: 6px;
-  line-height: 1.5; 
-  background-color: white;
-  color:  rgb(194, 175, 175); 
-   margin-right: 52px;
-  border: 1px solid  rgb(194, 175, 175);
-  border-spacing: 20px;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 1.5;
+    background-color: white;
+    color: rgb(194, 175, 175);
+    margin-right: 52px;
+    border: 1px solid rgb(194, 175, 175);
+    border-spacing: 20px;
 }
-.subject
-{
 
-  margin-left: 43px;
- margin-top: 10px;
-    border-left: -15px;
-    font-family: verdana, sans-serif;
-  font-size: 15px;
-  padding: 6px;
-  line-height: 1.5; 
-  background-color: white;
-  color:  rgb(194, 175, 175); 
-   margin-right: 52px;
-  border: 1px solid  rgb(194, 175, 175);
-  border-spacing: 20px;
-}
-.comment
-{
+.email {
 
-  margin-left: 43px;
- margin-top: 10px;
+    margin-left: 43px;
+    margin-top: 10px;
     border-left: -15px;
     font-family: verdana, sans-serif;
-  font-size: 15px;
-  padding: 6px;
-  line-height: 1.5; 
-  background-color: white;
-  color:  rgb(194, 175, 175); 
-   margin-right: 52px;
-  border: 1px solid  rgb(194, 175, 175);
-  border-spacing: 20px;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 1.5;
+    background-color: white;
+    color: rgb(194, 175, 175);
+    margin-right: 52px;
+    border: 1px solid rgb(194, 175, 175);
+    border-spacing: 20px;
 }
-.send
-{
-margin-left: 43px;
- margin-top: 22px;
+
+.subject {
+
+    margin-left: 43px;
+    margin-top: 10px;
     border-left: -15px;
     font-family: verdana, sans-serif;
-  font-size: 15px;
-  padding: 6px;
-  line-height: 1.5; 
-  background-color: black;
-  color:  white; 
-   margin-right: 52px;
-  border: 1px solid  rgb(194, 175, 175);
-  border-spacing: 20px;
-border: none;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 1.5;
+    background-color: white;
+    color: rgb(194, 175, 175);
+    margin-right: 52px;
+    border: 1px solid rgb(194, 175, 175);
+    border-spacing: 20px;
+}
+
+.comment {
+
+    margin-left: 43px;
+    margin-top: 10px;
+    border-left: -15px;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 1.5;
+    background-color: white;
+    color: rgb(194, 175, 175);
+    margin-right: 52px;
+    border: 1px solid rgb(194, 175, 175);
+    border-spacing: 20px;
+}
+
+.send {
+    margin-left: 43px;
+    margin-top: 22px;
+    border-left: -15px;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+    margin-right: 52px;
+    border: 1px solid rgb(194, 175, 175);
+    border-spacing: 20px;
+    border: none;
     display: inline-block;
     padding: 8px 16px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
 }
-.map
-{
-    background-image:url(../img/map.jpg);
+
+.map {
+    background-image: url(../img/map.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
     margin-left: 43px;
- margin-top: 30px;
+    margin-top: 30px;
     width: 93%;
-    height: 700px; 
+    height: 700px;
 }
