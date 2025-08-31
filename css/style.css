@@ -45,7 +45,7 @@ body
 }
 
 .banner{
-    background-image: url(../architect.jpg);
+    background-image: url(../img/architect.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
     width: 100%;
@@ -133,7 +133,7 @@ margin: 10px 40px;
 }
 .banner-a
 {
-    background-image: url(../house5.jpg);
+    background-image: url(../img/house5.jpg);
      background-repeat: no-repeat;
     object-fit:contain;
     width: 350px;
@@ -155,7 +155,7 @@ margin: 10px 40px;
 }
 .banner-b
 {
-     background-image:url(../house2.jpg);
+     background-image:url(../img/house2.jpg);
      background-repeat: no-repeat;
      object-fit:contain;
      width: 350px;
@@ -180,7 +180,7 @@ margin: 10px 40px;
 }
 .banner-c
 {
-    background-image:url(../house3.jpg);
+    background-image:url(../img/house3.jpg);
      background-repeat: no-repeat;
      object-fit:contain;
      width: 350px;
@@ -202,7 +202,7 @@ margin: 10px 40px;
 }
 .banner-d
 {
-    background-image:url(../house4.jpg);
+    background-image:url(../img/house4.jpg);
      background-repeat: no-repeat;
      object-fit:contain;
      width: 350px;
@@ -223,7 +223,7 @@ margin: 10px 40px;
 }
 .banner.e
 {
- background-image:url(../house2.jpg);
+ background-image:url(../img/house2.jpg);
      object-fit:contain;
      width: 350px;
      height: 250px;
@@ -243,7 +243,7 @@ margin: 10px 40px;
 } 
 .banner-f
 {
- background-image:url(../house2.jpg);
+ background-image:url(../img/house2.jpg);
      object-fit:contain;
      width: 350px;
      height: 250px;
@@ -309,7 +309,7 @@ width: 150px; /* control size */
 }
 .banner-0
 {
-  background-image:url(../team2.jpg);
+  background-image:url(../img/team2.jpg);
      object-fit:fill;
      width: 300px;
      height: 210px;
@@ -502,7 +502,7 @@ border: none;
 }
 .map
 {
-    background-image:url(../map.jpg);
+    background-image:url(../img/map.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
     margin-left: 43px;
