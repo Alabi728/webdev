@@ -146,8 +146,8 @@ body {
     padding-top: 32px;
     padding-bottom: 20px;
     margin: 10px 40px;
-}
 
+}
 .rel {
     letter-spacing: 0px;
     margin-left: -8px;
@@ -163,7 +163,7 @@ body {
 }
 
 .container-fx {
-    margin-top: 10px;
+    margin-top: 10px; 
     margin-left: 16px;
     height: auto;
     /* keep aspect ratio */
@@ -175,8 +175,7 @@ body {
 }
 
 .team-container{
-    margin: 10px 8px;
-}
+    margin: 10px 8px;}
 
 .team-name {
     font-family: Verdana, sans-serif;
