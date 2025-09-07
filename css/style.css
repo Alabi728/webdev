@@ -11,8 +11,51 @@
     z-index: 10;
 }
 
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .top-nav {
+        display: auto;
+        height: 50px;
+        width: 95%;
+
+    }
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 16px;
+    overflow: hidden;
+    float: right;
+
+}
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .nav-list {
+        display: none;
+        float: none;
+
+    }
+}
+
 body {
     margin: 0px;
+}
+
+.cl {
+    font-size: 15px;
+    margin-left: -5px;
+    color: grey;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .cl {
+        display: none;
+        color: transparent;
+        opacity: 0.7;
+
+    }
+
 }
 
 .top-nav p {
@@ -32,8 +75,7 @@ body {
     float: right;
 }
 
-.top-nav ul li 
-{
+.top-nav ul li {
     float: left;
     margin: 0px 5px;
 }
@@ -43,13 +85,25 @@ body {
 }
 
 .banner {
-    background-image: url(../img/architect.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
     width: 100%;
     height: 700px;
 }
 
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .banner {
+        background-repeat: no-repeat;
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+}
 
 .banner p {
     color: rgb(255, 252, 252);
@@ -120,6 +174,16 @@ body {
     margin-left: 10px;
 }
 
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .project-content {
+        display: relative;
+        grid-template-columns: 1fr;
+        float: center;
+        margin-bottom: 7px;
+
+    }
+}
+
 .project-badge {
     font-family: Verdana, sans-serif;
     color: white;
@@ -131,6 +195,7 @@ body {
     left: 0;
 }
 
+
 .project-badge:hover {
     background-color: white;
     color: black;
@@ -139,8 +204,17 @@ body {
 
 .project-image {
     width: 100%;
-    object-fit: contain;
-    display: block;
+    object-fit: relative;
+    display: grid;
+
+}
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .project-image {
+        display: grid;
+        grid-template-columns: auto;
+
+    }
 }
 
 .About {
@@ -176,8 +250,22 @@ body {
     overflow: hidden;
 }
 
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .container-fx {
+        display: grid;
+        grid-template-columns: 1fr;
+        float: center;
+        margin-bottom: 5px; 
+    }
+}
+
 .team-container {
     margin: 10px 8px;
+}
+@media screen and (max-width: 412px) and (max-height: 915px){
+    .team-container{
+        margin-right: 5px;
+    }
 }
 
 .team-banner {
@@ -185,7 +273,7 @@ body {
     background-repeat: no-repeat;
     object-fit: contain;
     width: 310px;
-    height:200px;
+    height: 200px;
     opacity: 1.4;
 }
 
@@ -317,7 +405,17 @@ body {
 .container-4 {
     margin-top: -10px;
 }
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .container-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        float: center;
+        margin-bottom: 5px;
+        margin-left: -5px;
 
+    }
+    
+}
 .txt- {
     margin-left: 20px;
 }
@@ -416,11 +514,48 @@ body {
 }
 
 .map {
-   ;
     background-repeat: no-repeat;
     object-fit: contain;
     margin-left: 43px;
     margin-top: 30px;
     width: 95%;
     height: 700px;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .map-image {
+        margin-right: 10px;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        width: 85%;
+        height: auto;
+    }
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    background-color: rgba(5, 5, 5, 0.938);
+    margin-top: 70px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.p {
+    letter-spacing: -3px;
+}
+
+.w3-css {
+    text-decoration: underline;
+    color: black;
+}
+
+.w3-css:hover {
+    color: green;
 }
