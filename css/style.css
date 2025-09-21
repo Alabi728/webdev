@@ -255,15 +255,16 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         float: center;
-        margin-bottom: 5px; 
+        margin-bottom: 5px;
     }
 }
 
 .team-container {
     margin: 10px 8px;
 }
-@media screen and (max-width: 412px) and (max-height: 915px){
-    .team-container{
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    .team-container {
         margin-right: 5px;
     }
 }
@@ -309,6 +310,7 @@ body {
     width: 310px;
     overflow: hidden;
 }
+
 @media screen and (max-width: 412px) and (max-height: 915px) {
     .team-button {
         font-size: 20px 40px;
@@ -423,6 +425,7 @@ body {
 .container-4 {
     margin-top: -10px;
 }
+
 @media screen and (max-width: 412px) and (max-height: 915px) {
     .container-4 {
         display: grid;
@@ -432,8 +435,9 @@ body {
         margin-left: -5px;
 
     }
-    
+
 }
+
 .txt- {
     margin-left: 20px;
 }
@@ -447,68 +451,26 @@ body {
     line-height: 1.5;
 }
 
-.name {
+.cv {
     margin-left: 43px;
     margin-top: 10px;
+    position: relative;
     border-left: -15px;
     font-family: verdana, sans-serif;
     font-size: 15px;
-    padding: 6px;
+    padding: 6px 520px;
     line-height: 1.5;
     background-color: white;
-    color: rgb(194, 175, 175);
+    color: black;
     margin-right: 52px;
     border: 1px solid rgb(194, 175, 175);
     border-spacing: 20px;
+    cursor: pointer;
+
+
 }
 
-.email {
 
-    margin-left: 43px;
-    margin-top: 10px;
-    border-left: -15px;
-    font-family: verdana, sans-serif;
-    font-size: 15px;
-    padding: 6px;
-    line-height: 1.5;
-    background-color: white;
-    color: rgb(194, 175, 175);
-    margin-right: 52px;
-    border: 1px solid rgb(194, 175, 175);
-    border-spacing: 20px;
-}
-
-.subject {
-
-    margin-left: 43px;
-    margin-top: 10px;
-    border-left: -15px;
-    font-family: verdana, sans-serif;
-    font-size: 15px;
-    padding: 6px;
-    line-height: 1.5;
-    background-color: white;
-    color: rgb(194, 175, 175);
-    margin-right: 52px;
-    border: 1px solid rgb(194, 175, 175);
-    border-spacing: 20px;
-}
-
-.comment {
-
-    margin-left: 43px;
-    margin-top: 10px;
-    border-left: -15px;
-    font-family: verdana, sans-serif;
-    font-size: 15px;
-    padding: 6px;
-    line-height: 1.5;
-    background-color: white;
-    color: rgb(194, 175, 175);
-    margin-right: 52px;
-    border: 1px solid rgb(194, 175, 175);
-    border-spacing: 20px;
-}
 
 .send {
     margin-left: 43px;
@@ -528,7 +490,11 @@ body {
     padding: 8px 16px;
     vertical-align: middle;
     overflow: hidden;
-    text-decoration: none;
+}
+.send:hover {
+    background-color: rgb(160, 152, 152);
+    color: black;
+    cursor: pointer;
 }
 
 .map {
