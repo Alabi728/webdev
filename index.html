@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div style="max-height: 1000px;">
+    <div style="max-height: 1000px;">       
         <div class="top-nav">
             <p><b>BR</b> Architects</p>
             <ul class="nav-list">
@@ -37,7 +37,8 @@
     <div class="container-fx">
 
         <div class="project-content">
-            <img src="img/house5.jpg" class="project-image" alt="" srcset="">
+            <img src="img/house5.jpg" id="map-image" class="project-image" alt="" srcset="">
+            <button onclick="showMap()">View on Map</button>
             <h5 class="project-badge">SUMMER HOUSE</h5>
         </div>
 
@@ -78,7 +79,7 @@
             <h5 class="project-badge">BARN HOUSE</h5>
         </div>
     </div>
-
+    
     <div class="content-x">
         <div class="About">
             <h3 class="rel">About</h3>
@@ -153,9 +154,9 @@
         <div class="txt-1">
             <p class="txt-2">Lets get in touch and talk about your next project.</p>
         </div>
-        <input type="text" class="cv" placeholder="Name" id="input-name">
-        <input type="text" class="cv" placeholder="Email" id="input-email">
-        <input type="text" class="cv" placeholder="Subject" id="input-subject">
+        <input type="text" class="cv" placeholder="Name" id="input-name ">
+        <input type="text" class="cv" placeholder="Email" id="input-comment">
+        <input type="text" class="cv" placeholder="Subject" id="input-comment">
         <input type="text" class="cv" placeholder="Comment" id="input-comment">
         <button class="send" onclick="greeting4()">SEND MESSAGE</button>
        

@@ -490,6 +490,7 @@ body {
     vertical-align: middle;
     overflow: hidden;
 }
+
 .send:hover {
     background-color: rgb(160, 152, 152);
     color: black;

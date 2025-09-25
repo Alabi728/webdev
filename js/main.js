@@ -14,13 +14,16 @@ function greeting3() {
     var teamName = document.getElementById("team-4").innerText;
     alert("Team member :  " + teamName + "");
 }
-        
+
 function greeting4() {
     var userName = document.getElementById("input-name").value;
-        var userEmail = document.getElementById("input-email").value;
-        var userSubject = document.getElementById("input-subject").value;
+    var userEmail = document.getElementById("input-email").value;
+    var userSubject = document.getElementById("input-subject").value;
     var userComment = document.getElementById("input-comment").value;
     alert("Name: " + userName + "\nEmail: " + userEmail + "" + "\nSubject: "
         + userSubject + "" + "\nComment: " + userComment + ""
     )
 }
+
+
+
