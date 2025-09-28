@@ -1,5 +1,5 @@
 function greeting() {
-    var teamName = document.getElementById("team-1").innerText;
+    var teamName =  document.getElementById("team-1").innerText;
     alert("Team member :  " + teamName + "");
 }
 function greeting1() {
